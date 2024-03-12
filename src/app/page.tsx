@@ -1,15 +1,9 @@
-import Image from "next/image";
+import Canvas from "@/components/Scene";
 
 export default function Home() {
   return (
     <main>
-      <h1>Next 13 Starter</h1>
-      <Image
-        src="/assets/images/crab.png"
-        alt="crab"
-        width={360}
-        height={270}
-      />
+      <Canvas />
     </main>
   );
 }

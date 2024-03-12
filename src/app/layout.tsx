@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import "../theme/globals.scss";
 import RootBody from "@/components/RootBody";
 
 export const metadata: Metadata = {
